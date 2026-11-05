@@ -1,0 +1,52 @@
+   0.5 ack 1 5 stop
+   0.5 CALTURN:begin edges=10 sector=45deg anchor b=11.996cm (track 11.42 slip 0.952) spin=70deg/s turn=left
+   0.5 CALTURN:spin start bar=.### wheel=7.33cm/s
+   1.1 CALTURN:ch1 n=1 h=1.82deg bar=..##
+   1.1 CALTURN:ch2 n=1 h=6.78deg bar=...#
+   1.1 CALTURN:ch3 n=1 h=24.53deg bar=....
+   1.7 CALTURN:ch0 n=1 h=42.42deg bar=#...
+   1.7 CALTURN:ch1 n=2 h=57.96deg bar=##..
+   1.7 CALTURN:ch2 n=2 h=62.92deg bar=###.
+   2.2 CALTURN:ch3 n=2 h=78.16deg bar=####
+   2.2 CALTURN:ch0 n=2 h=89.76deg bar=.###
+   2.2 CALTURN:ch1 n=3 h=104.71deg bar=..##
+   2.2 CALTURN:ch2 n=3 h=110.29deg bar=...#
+   2.7 CALTURN:ch3 n=3 h=126.86deg bar=....
+   2.7 CALTURN:ch0 n=3 h=144.94deg bar=#...
+   3.2 CALTURN:ch1 n=4 h=162.47deg bar=##..
+   3.2 CALTURN:ch2 n=4 h=165.67deg bar=###.
+   3.2 CALTURN:ch3 n=4 h=180.85deg bar=####
+   3.8 CALTURN:ch0 n=4 h=189.08deg bar=.###
+   3.8 CALTURN:ch1 n=5 h=205.54deg bar=..##
+   3.8 CALTURN:ch2 n=5 h=210.57deg bar=...#
+   4.3 CALTURN:ch3 n=5 h=227.5deg bar=....
+   4.3 CALTURN:ch0 n=5 h=241.02deg bar=#...
+   4.3 CALTURN:ch1 n=6 h=257.62deg bar=##..
+   4.3 CALTURN:ch2 n=6 h=262.21deg bar=###.
+   4.9 CALTURN:ch3 n=6 h=278.02deg bar=####
+   4.9 CALTURN:ch0 n=6 h=283.04deg bar=.###
+   4.9 CALTURN:ch1 n=7 h=299.57deg bar=..##
+   5.4 CALTURN:ch2 n=7 h=302.98deg bar=...#
+   5.4 CALTURN:ch3 n=7 h=320.5deg bar=....
+   5.4 CALTURN:ch0 n=7 h=334.12deg bar=#...
+   5.9 CALTURN:ch1 n=8 h=351.18deg bar=##..
+   5.9 CALTURN:ch2 n=8 h=356.14deg bar=###.
+   6.4 CALTURN:ch3 n=8 h=371.32deg bar=####
+   6.4 CALTURN:ch0 n=8 h=379.95deg bar=.###
+   6.4 CALTURN:ch1 n=9 h=396.64deg bar=..##
+   6.4 CALTURN:ch2 n=9 h=401.73deg bar=...#
+   7.0 CALTURN:ch3 n=9 h=418.69deg bar=....
+   7.0 CALTURN:ch0 n=9 h=434.76deg bar=#...
+   7.5 CALTURN:ch1 n=10 h=452.32deg bar=##..
+   7.5 CALTURN:ch2 n=10 h=455.62deg bar=###.
+   7.5 CALTURN:ch3 n=10 h=470.7deg bar=####
+   8.6 CALTURN:ch0 n=10 h=480.59deg bar=.###
+   8.6 {"ev":"calturn.ch","i":0,"n":10,"gap":48.854,"sd":5.031,"slope":1.0856}
+   8.6 {"ev":"calturn.ch","i":1,"n":10,"gap":49.295,"sd":5.848,"slope":1.0954}
+   8.6 {"ev":"calturn.ch","i":2,"n":10,"gap":49.088,"sd":5.178,"slope":1.0908}
+   8.6 {"ev":"calturn.ch","i":3,"n":10,"gap":49.067,"sd":3.592,"slope":1.0904}
+   8.6 {"ev":"calturn.result","b":13.082,"tw":11.42,"slip":0.8729,"anchor_tw":11.42,"slip_at_anchor":0.8729,"slope":1.0906,"gaps":32,"anchor_b":11.996}
+   8.6 {"ev":"calturn.quality","sd":5.848,"spread":0.441,"ch":4,"gap":49.076,"sector":45,"spin":70,"wheel":7.33}
+   8.6 {"ev":"calturn.stored","run":0.8729,"slip":0.867,"pair":"yes"}
+   8.6 {"ev":"calturn.restored","tw":11.42,"slip":0.867,"stored":1}
+{"status": {"ready": "1", "active": "0", "connL": "1", "connR": "1", "otos": "0", "wedge": "0", "flags": "31", "i2cf": "69", "cyc": "4093", "tlm": "off", "next": "2", "done": "5", "reason": "stop", "wifi": "0", "radio": "1", "channel": "60", "group": "64", "posmove": "0"}}

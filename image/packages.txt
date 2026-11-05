@@ -1,0 +1,36 @@
+# apt packages added to Raspberry Pi OS Lite. One per line; # starts a comment.
+
+# shell and admin
+git
+curl
+ca-certificates
+rsync
+jq
+htop
+tmux
+screen
+vim
+less
+lsof
+strace
+usbutils
+i2c-tools
+picocom
+avahi-daemon
+avahi-utils
+iw
+
+# building Python packages that have no wheel
+build-essential
+pkg-config
+python3-dev
+python3-venv
+python3-pip
+
+# cameras: USB (V4L2) and CSI (libcamera)
+v4l-utils
+ffmpeg
+fswebcam
+ustreamer
+rpicam-apps-lite
+libcamera-tools

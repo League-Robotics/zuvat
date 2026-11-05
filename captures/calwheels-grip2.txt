@@ -1,0 +1,31 @@
+   0.6 ack 1 5 stop
+   0.6 CALWHEELS:begin true=90.2cm scale=0.6926mm/deg wheel=unknown span=72.2..108.2cm speed=8 kp=1.1 dead=0.3 aim=0.24cm
+   1.1 CALWHEELS:start line at=2.35cm
+   1.1 CALWHEELS:straddling from=4.1cm bar=.##.
+   1.7 CALWHEELS:trk x=6.1cm bar=.##. err=0.6 steer=0.66
+   2.3 CALWHEELS:trk x=10.6cm bar=..#. err=0 steer=0
+   2.8 CALWHEELS:trk x=15.1cm bar=..#. err=0 steer=0
+   3.9 CALWHEELS:trk x=19.8cm bar=.##. err=0.6 steer=0.66
+   4.4 CALWHEELS:trk x=24.5cm bar=..#. err=0 steer=0
+   5.0 CALWHEELS:trk x=29.4cm bar=..#. err=0 steer=0
+   5.5 CALWHEELS:trk x=33.9cm bar=.... err=-1.2 steer=-1.32
+   6.1 CALWHEELS:trk x=38.7cm bar=..#. err=0 steer=0
+   6.6 CALWHEELS:trk x=43.6cm bar=.##. err=0.6 steer=0.66
+   7.1 CALWHEELS:trk x=48.4cm bar=..#. err=0 steer=0
+   7.7 CALWHEELS:trk x=53.2cm bar=..#. err=0 steer=0
+   8.2 CALWHEELS:trk x=57.8cm bar=.... err=-1.2 steer=-1.32
+   9.3 CALWHEELS:trk x=62.6cm bar=..#. err=0 steer=0
+   9.9 CALWHEELS:trk x=67.5cm bar=.##. err=0.6 steer=0.66
+  10.5 CALWHEELS:trk x=72.4cm bar=..#. err=0 steer=0
+  11.0 CALWHEELS:trk x=77.1cm bar=.... err=-1.2 steer=-1.32
+  11.6 CALWHEELS:trk x=81.8cm bar=..#. err=0 steer=0
+  12.2 CALWHEELS:trk x=86.5cm bar=..#. err=0 steer=0
+  13.3 {"ev":"calwheels.result","calib":0.6922,"diameter":79.32,"measured":90.25,"true":90.2,"error":0.05,"was":0.6926,"wheel":"unknown","stored":1}
+  13.3 {"ev":"calwheels.quality","rms":0.5,"mean":0.26,"max":1.2,"xpm":8.9,"blind":46,"ticks":469,"acq":0,"bias":-0.053,"heading":1.69}
+  13.3 {"ev":"calwheels.span","start":2.35,"finish":92.6}
+  13.3 CALWHEELS:home reverse PID kp=-0.7 kh=-0.22 ki=0 speed=11cm/s
+  14.3 CALWHEELS:hometrk x=6.5cm bar=..#. err=0 h=0.3 steer=-0.07
+  14.8 CALWHEELS:hometrk x=13.1cm bar=..#. err=0 h=0.6 steer=-0.13
+  15.4 CALWHEELS:hometrk x=19.8cm bar=.... err=-1.2 h=1 steer=0.63
+  16.5 CALWHEELS:home fail lost the stripe for 25 ticks at 26.1cm -- stopping, not guessing
+{"status": {"ready": "1", "active": "0", "connL": "1", "connR": "1", "otos": "0", "wedge": "0", "flags": "31", "i2cf": "60", "cyc": "3478", "tlm": "off", "next": "2", "done": "5", "reason": "stop", "wifi": "0", "radio": "1", "channel": "60", "group": "64", "posmove": "0"}}

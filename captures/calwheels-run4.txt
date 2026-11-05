@@ -1,0 +1,30 @@
+   0.6 ack 1 3 stop
+   0.6 CALWHEELS:begin true=90.2cm scale=0.7747mm/deg wheel=unknown span=72.2..108.2cm speed=8 kp=1.1 dead=0.3 aim=0.24cm
+   0.6 CALWHEELS:start line at=1.4cm
+   1.1 CALWHEELS:straddling from=5.5cm bar=...#
+   1.7 CALWHEELS:trk x=8.7cm bar=.##. err=0.6 steer=0.66
+   2.2 CALWHEELS:trk x=13.5cm bar=.##. err=0.6 steer=0.66
+   3.3 CALWHEELS:trk x=18.3cm bar=.##. err=0.6 steer=0.66
+   3.9 CALWHEELS:trk x=23.1cm bar=..#. err=0 steer=0
+   4.4 CALWHEELS:trk x=28cm bar=..#. err=0 steer=0
+   5.0 CALWHEELS:trk x=32.6cm bar=..#. err=0 steer=0
+   5.6 CALWHEELS:trk x=37.4cm bar=..#. err=0 steer=0
+   6.2 CALWHEELS:trk x=42.2cm bar=..#. err=0 steer=0
+   6.7 CALWHEELS:trk x=47cm bar=.##. err=0.6 steer=0.66
+   7.3 CALWHEELS:trk x=51.7cm bar=..#. err=0 steer=0
+   7.8 CALWHEELS:trk x=56.5cm bar=..#. err=0 steer=0
+   8.4 CALWHEELS:trk x=61.3cm bar=..#. err=0 steer=0
+   8.9 CALWHEELS:trk x=66.1cm bar=..#. err=0 steer=0
+   9.5 CALWHEELS:trk x=70.8cm bar=.##. err=0.6 steer=0.66
+  10.1 CALWHEELS:trk x=75.7cm bar=..#. err=0 steer=0
+  10.7 CALWHEELS:trk x=80.6cm bar=.... err=-1.2 steer=-1.32
+  11.3 CALWHEELS:trk x=85.3cm bar=..#. err=0 steer=0
+  11.9 CALWHEELS:trk x=90cm bar=..#. err=0 steer=0
+  13.0 {"ev":"calwheels.result","calib":0.7709,"diameter":88.33,"measured":90.65,"true":90.2,"error":0.45,"was":0.7747,"wheel":"unknown","stored":1}
+  13.0 {"ev":"calwheels.quality","rms":0.6,"mean":0.3,"max":2.4,"xpm":8.8,"blind":51,"ticks":453,"acq":0,"bias":0.156,"heading":-6}
+  13.0 {"ev":"calwheels.span","start":1.4,"finish":92.05}
+  13.0 CALWHEELS:home reverse PID kp=-0.7 kh=-0.22 ki=0 speed=11cm/s
+  14.0 CALWHEELS:hometrk x=7cm bar=..#. err=0 h=-0.6 steer=0.14
+  14.6 CALWHEELS:hometrk x=13.8cm bar=.... err=-1.2 h=0.8 steer=0.67
+  15.6 CALWHEELS:home fail lost the stripe for 25 ticks at 19.4cm -- stopping, not guessing
+{"status": {"ready": "1", "active": "0", "connL": "1", "connR": "1", "otos": "0", "wedge": "0", "flags": "31", "i2cf": "127", "cyc": "2878", "tlm": "off", "next": "2", "done": "3", "reason": "stop", "wifi": "0", "radio": "1", "channel": "60", "group": "64", "posmove": "0"}}

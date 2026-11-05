@@ -1,0 +1,11 @@
+numpy
+scipy
+opencv-contrib-python-headless
+pillow
+pyyaml
+requests
+websockets
+msgpack
+mss
+cv2-enumerate-cameras
+grpcio-reflection

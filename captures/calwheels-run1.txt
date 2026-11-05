@@ -1,0 +1,4 @@
+   0.5 ack 1 5 stop
+   1.0 CALWHEELS:begin true=90.2cm scale=0.7844mm/deg wheel=unknown span=67.6..202.7cm speed=8 kp=1.1 dead=0.3 aim=0.24cm
+   1.0 {"ev":"calwheels.fail","why":"not on clear white","bar":"####"}
+{"status": {"ready": "1", "active": "0", "connL": "1", "connR": "1", "otos": "0", "wedge": "0", "flags": "31", "i2cf": "21", "cyc": "73", "tlm": "off", "next": "2", "done": "5", "reason": "stop", "wifi": "0", "radio": "1", "channel": "60", "group": "64", "posmove": "0"}}

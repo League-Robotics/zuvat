@@ -41,11 +41,14 @@ built from `../aprilcam` (`APRILCAM_SRC=` to change). Pin mbtools with
 
 ### Flash a card
 
-    make flash DISK=/dev/diskN                       # zuvat, DHCP
-    make flash DISK=/dev/diskN ARGS="-n vevov -i 192.168.4.x"
+    make card                                        # pick the card from a list; zuvat, DHCP
+    make card ARGS="-n vevov -i 192.168.4.x"
+    make flash DISK=/dev/diskN                       # same, card named directly
 
-`diskutil list external` finds the card. The script asks you to type the
-device back before it erases it, and sudo asks for your password for `dd`.
+`make card` lists only external disks up to 128 GB, asks which one, shows
+what is on it and asks y/N, then asks for your sudo password before it
+writes. The seed is generated before the card is erased, so a missing
+secret stops it early.
 The seed gives `jtl` Eric's keys from
 `busboom-home-network/config/keys/eric.pub`, passwordless sudo, the
 `PI_JTL_PASSWORD` console password, and `Robot_Garage` Wi-Fi. Both secrets

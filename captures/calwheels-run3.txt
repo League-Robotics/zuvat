@@ -1,0 +1,41 @@
+   0.6 ack 1 3 stop
+   0.6 CALWHEELS:begin true=90.2cm scale=0.7678mm/deg wheel=unknown span=72.2..108.2cm speed=8 kp=1.1 dead=0.3 aim=0.24cm
+   0.6 CALWHEELS:start line at=1.3cm
+   1.1 CALWHEELS:straddling from=4.1cm bar=..#.
+   2.1 CALWHEELS:trk x=9.2cm bar=..#. err=0 steer=0
+   2.7 CALWHEELS:trk x=14cm bar=.##. err=0.6 steer=0.66
+   3.2 CALWHEELS:trk x=18.9cm bar=.##. err=0.6 steer=0.66
+   3.8 CALWHEELS:trk x=23.7cm bar=..#. err=0 steer=0
+   4.4 CALWHEELS:trk x=28.5cm bar=..#. err=0 steer=0
+   4.9 CALWHEELS:trk x=33.2cm bar=.##. err=0.6 steer=0.66
+   5.4 CALWHEELS:trk x=38cm bar=.... err=-1.2 steer=-1.32
+   6.0 CALWHEELS:trk x=42.7cm bar=..#. err=0 steer=0
+   6.6 CALWHEELS:trk x=47.6cm bar=.##. err=0.6 steer=0.66
+   7.2 CALWHEELS:trk x=52.4cm bar=..#. err=0 steer=0
+   7.8 CALWHEELS:trk x=57.2cm bar=.... err=-1.2 steer=-1.32
+   8.4 CALWHEELS:trk x=61.9cm bar=..#. err=0 steer=0
+   9.0 CALWHEELS:trk x=66.5cm bar=..#. err=0 steer=0
+   9.7 CALWHEELS:trk x=71.2cm bar=..#. err=0 steer=0
+  10.2 CALWHEELS:trk x=76.1cm bar=.##. err=0.6 steer=0.66
+  10.8 CALWHEELS:trk x=80.9cm bar=..#. err=0 steer=0
+  11.3 CALWHEELS:trk x=85.6cm bar=..#. err=0 steer=0
+  12.9 {"ev":"calwheels.result","calib":0.7747,"diameter":88.77,"measured":89.4,"true":90.2,"error":-0.8,"was":0.7678,"wheel":"unknown","stored":1}
+  12.9 {"ev":"calwheels.quality","rms":0.59,"mean":0.31,"max":2.4,"xpm":11.2,"blind":57,"ticks":444,"acq":9,"bias":0.102,"heading":-0.51}
+  12.9 {"ev":"calwheels.span","start":1.3,"finish":90.7}
+  12.9 CALWHEELS:home reverse PID kp=-0.7 kh=-0.22 ki=0 speed=11cm/s
+  13.5 CALWHEELS:hometrk x=7.2cm bar=..#. err=0 h=-0.3 steer=0.06
+  14.1 CALWHEELS:hometrk x=14cm bar=..#. err=0 h=0.7 steer=-0.16
+  14.7 CALWHEELS:hometrk x=20.5cm bar=..#. err=0 h=-0.6 steer=0.14
+  15.3 CALWHEELS:hometrk x=27.2cm bar=..#. err=0 h=-0.5 steer=0.11
+  15.9 CALWHEELS:hometrk x=33.8cm bar=..#. err=0 h=1 steer=-0.22
+  16.4 CALWHEELS:hometrk x=40.5cm bar=.##. err=0.6 h=0.9 steer=-0.61
+  17.0 CALWHEELS:hometrk x=47.1cm bar=.##. err=0.6 h=-1.9 steer=0.01
+  17.6 CALWHEELS:hometrk x=53.7cm bar=.##. err=0.6 h=-2.2 steer=0.06
+  18.1 CALWHEELS:hometrk x=60.3cm bar=.##. err=0.6 h=-1.7 steer=-0.05
+  19.2 CALWHEELS:hometrk x=66.9cm bar=.##. err=0.6 h=-1.7 steer=-0.04
+  19.8 CALWHEELS:hometrk x=73.6cm bar=.##. err=0.6 h=-2.6 steer=0.16
+  20.4 CALWHEELS:hometrk x=79.9cm bar=.#.. err=1.2 h=-2.9 steer=-0.19
+  21.0 CALWHEELS:hometrk x=86.5cm bar=#... err=3.6 h=-5.7 steer=-1.26
+  22.0 CALWHEELS:home back 93cm bar=.... heading=-7.77deg
+  22.0 CALWHEELS:homeosc rms=1.05cm mean=0.58cm max=3.6cm crossings=0 blind=6/335ticks
+{"status": {"ready": "1", "active": "0", "connL": "1", "connR": "1", "otos": "0", "wedge": "0", "flags": "31", "i2cf": "83", "cyc": "2088", "tlm": "off", "next": "2", "done": "3", "reason": "stop", "wifi": "0", "radio": "1", "channel": "60", "group": "64", "posmove": "0"}}
